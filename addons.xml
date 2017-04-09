@@ -1,0 +1,115 @@
+<addons>
+<addon id="plugin.program.CreativeTvBoxinstall" name="Creative Tv Box INSTALLER" version="4.1.2" provider-name="Creative Tv Box">
+  <requires>
+    	<import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Creative Tv Box Install</summary>
+    <description lang="en">Creative Tv Box Installer, Add-ons en meer. kijk op www.creativetvbox.nl</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="CreativeTvBox.onderhoud" name="Creative Tv Box Onderhoud" version="2.0.0" provider-name="Creative Tv Box">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Creative Tv Box Onderhoud</summary>
+    <description lang="en"></description>
+	<disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="script.creative.update.16.1.lite" name="Creative Tv Box Update 16.1 Lite" version="1.1.0" provider-name="Creative Tv Box">
+  <requires>
+    	<import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+      <summary lang="en">Creative Tv Box Update</summary>
+      <description lang="en">Creative Tv Box Update</description>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+<addon id="script.creative.update.16.1.ultra" name="Creative Tv Box Update 16.1 Ultra" version="1.1.0" provider-name="Creative Tv Box">
+  <requires>
+    	<import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+      <summary lang="en">Creative Tv Box Update</summary>
+      <description lang="en">Creative Tv Box Update</description>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+<addon id="script.creative.update.16.1.ultra.xxx" name="Creative Tv Box Update Ultra XxX" version="1.1.0" provider-name="Creative Tv Box">
+  <requires>
+    	<import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+      <summary lang="en">Creative Tv Box Update</summary>
+      <description lang="en">Creative Tv Box Update</description>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+<addon id="script.creative.update.17.1.lite" name="Creative Tv Box Update 17.1 Lite" version="1.1.0" provider-name="Creative Tv Box">
+  <requires>
+    	<import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+      <summary lang="en">Creative Tv Box Update</summary>
+      <description lang="en">Creative Tv Box Update</description>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+<addon id="script.creative.update.17.1.ultra" name="Creative Tv Box Update 17.1 Ultra" version="1.1.0" provider-name="Creative Tv Box">
+  <requires>
+    	<import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+      <summary lang="en">Creative Tv Box Update</summary>
+      <description lang="en">Creative Tv Box Update</description>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+<addon id="script.creative.update.17.1.ultra.xxx" name="Creative Tv Box Update 17.1 Ultra XxX" version="1.1.0" provider-name="Creative Tv Box">
+  <requires>
+    	<import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+      <summary lang="en">Creative Tv Box Update</summary>
+      <description lang="en">Creative Tv Box Update</description>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+</addons>
